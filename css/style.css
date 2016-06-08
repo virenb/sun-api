@@ -4,7 +4,13 @@ h1 {font-size: 2.75em; margin-bottom: -10px;}
 h2 {font-size: 1.25em; padding-bottom: 20px;}
 
 .sunrise, .sunset {display: inline-block; margin: 0 auto; padding: 0px 40px 40px 40px;}
-#rise, #set {font-weight: 700;}
+#rise, #set, #name {font-weight: 700;}
 #sunrise, #sunset {background-color: #d3d3d3; padding: 5px; border-radius: 5px;}
+.location {padding-bottom: 20px;}
 
-img {padding-top: 50px;display: block; margin: 0 auto;}
+img {margin-top: 40px;display: block; margin: 0 auto; border: 2px solid #d3d3d3; border-radius: 10px;}
+
+  footer{ padding-top: 40px;
+    bottom: 0;
+    width: 100%;
+}

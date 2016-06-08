@@ -1,8 +1,10 @@
-* {font-family: 'Josefin Sans', sans-serif;}
-h1, h2 {text-align: center;}
-h1 {font-size: 2.75em;}
-h2 {font-size: 1.25em;}
+* {font-family: 'Raleway', sans-serif; color: navy;}
+body {text-align: center;}
+h1 {font-size: 2.75em; margin-bottom: -10px;}
+h2 {font-size: 1.25em; padding-bottom: 20px;}
 
+.sunrise, .sunset {display: inline-block; margin: 0 auto; padding: 0px 40px 40px 40px;}
+#rise, #set {font-weight: 700;}
+#sunrise, #sunset {background-color: #d3d3d3; padding: 5px; border-radius: 5px;}
 
-
-img {display: block; margin: 0 auto;}
+img {padding-top: 50px;display: block; margin: 0 auto;}

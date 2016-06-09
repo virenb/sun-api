@@ -11,8 +11,8 @@ header {
     position: relative;
     width: auto;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -20,14 +20,15 @@ header {
     left: 0;
     z-index: 999999;
 }
-h1 {
-    font-size: 2.75em;
-    margin-bottom: -5px;
-    padding-bottom: 5px;
+#largehead {
+    font-size: 3.5em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 h2 {
     font-size: 1.25em;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    font-weight: 600;
 }
 .sunrise-time,
 .sunset-time {

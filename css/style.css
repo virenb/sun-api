@@ -51,13 +51,7 @@ h2 {
     padding-bottom: 20px;
     color: #4B0082;
 }
-img {
-    margin-top: 40px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #d3d3d3;
-    border-radius: 10px;
-}
+
 footer {
     padding-top: 40px;
     bottom: 0;
@@ -76,3 +70,12 @@ footer {
     content: '\f112';
     color: rgb(252, 212, 64);
 }
+#mapid {
+    margin-top: 40px;
+    display: block; 
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    }

@@ -5,7 +5,6 @@ body {
     text-align: center;
 }
 header {
-    background: #4B0082;
     background-size: cover;
     color: white;
     position: relative;
@@ -35,12 +34,12 @@ h2 {
     display: inline-block;
     margin: 0 auto;
     padding: 20px 60px 40px 60px;
-    color: #4B0082;
 }
 #rise,
 #set,
 .name {
     font-weight: 700;
+    color: #4B0082;
 }
 #sunrise,
 #sunset,
@@ -62,20 +61,8 @@ footer {
     padding-top: 40px;
     bottom: 0;
     width: 100%;
-    color: #4B0082;
 }
-.sunset:before {
-    font-family: 'iconvault';
-    font-size: 4em;
-    content: '\f110';
-    color: rgb(250, 214, 165);
-}
-.sunrise:before {
-    font-family: 'iconvault';
-    font-size: 4em;
-    content: '\f112';
-    color: rgb(252, 212, 64);
-}
+
 #mapid {
     margin-top: 40px;
     display: block; 
@@ -85,3 +72,22 @@ footer {
     border: 2px solid #d3d3d3;
     border-radius: 10px;
     }
+
+.sunset:before {
+    font-family: 'iconvault';
+    font-size: 4em;
+    content: '\f110';
+    color: rgb(252, 212, 64);
+}
+.sunrise:before {
+    font-family: 'iconvault';
+    font-size: 4em;
+    content: '\f112';
+    color: rgb(252, 212, 64);
+}
+
+header {
+    background: #4B0082;
+}
+
+footer, .sunset-time, .location {color: #4B0082;}

@@ -1,0 +1,20 @@
+.sunset:before {
+  font-family: 'iconvault';
+  font-size: 4em;
+  content: '\f110';
+  color: #fcd440;
+}
+.sunrise:before {
+  font-family: 'iconvault';
+  font-size: 4em;
+  content: '\f112';
+  color: #fcd440;
+}
+header {
+  background: #4B0082;
+}
+footer,
+.sunset-time,
+.location {
+  color: #4B0082;
+}

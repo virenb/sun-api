@@ -17,7 +17,7 @@ var popup = L.popup();
         var lng = mymap.getCenter().lng.toFixed(3);
         // console.log("You are at " + lat + ", " + lng);
         $("#latlong").text(lat + ", " + lng);
-        $.getJSON("http://api.sunrise-sunset.org/json", {
+        $.getJSON("https://api.sunrise-sunset.org/json", {
           lat: lat,
           lng: lng
         }, function (results) {

@@ -6,40 +6,37 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/normalize.css" />
-	<!-- <link rel="stylesheet/less" type="text/css" href="css/style.less" /> -->
-	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
-   integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
-   crossorigin=""/>
-
-	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
+  integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
+  integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
+  crossorigin=""></script>
 </head>
+
 <body>
-<header>
-	<h1 id="largehead">Sunrise / Sunset </h1>
-	<h2>When to sleep? When to wake up? A location based guide.</h2>
+	<header>
+		<h1 id="largehead">Sunrise / Sunset </h1>
+		<h2>When to sleep? When to wake up? A location based guide.</h2>
 	</header>
 	<section class="sunrise-time">
-	<div class="sunrise"></div>
+		<div class="sunrise"></div>
 		<div id="rise">Sunrise</div>
 		<div id="sunrise"> 00:00:00 </div>
 	</section>
 	<section class="sunset-time">
-	<div class="sunset"></div>
+		<div class="sunset"></div>
 		<div id="set">Sunset</div>
 		<div id="sunset"> 12:00:00 </div>
 	</section>
 	<section class="location">
-	<div class="name">Location's</div>
+		<div class="name">Location's</div>
 		<div class="name">Latitude and Longitude</div>
 		<div id="latlong">37.7749° N, 122.4194° W</div>
 	</section>
-	<!--<img src="img/map1.jpg" alt="Map"/>-->
 	<div id="mapid"></div>
- <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
-   integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
-   crossorigin=""></script>
-	<script src="build/sun-api.1.0.0.js"></script>
+	<script src="app/app.js"></script>
 	<footer>All times are in UTC.</footer>
 </body>
 </html>
